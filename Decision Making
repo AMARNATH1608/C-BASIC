@@ -1,0 +1,48 @@
+//simple calculator using switch
+/*
+#include <stdio.h>
+int main()
+{
+    char o;
+    printf("Choose your option:+,-,*,/");
+    scanf("%c",&o);
+    int a,b;
+    switch(o){
+        case '+':
+            printf("Enter your number:");
+           
+            scanf("%d",&a);
+            printf("Enter your number:");
+            scanf("%d",&b);
+            printf("The add values is:%d",a+b);
+            break;
+        case '-':
+            printf("Enter your number:");
+           // int a,b;
+            scanf("%d",&a);
+            printf("Enter your number:");
+            scanf("%d",&b);
+            printf("The sub value is:%d",a-b);
+            break;
+        case '*':
+            printf("Enter your number:");
+        //    int a,b;
+            scanf("%d",&a);
+            printf("Enter your number:");
+            scanf("%d",&b);
+            printf("The multi value is:%d",a*b);
+            break;
+        case '/':
+            printf("Enter your number:");
+         //   int a,b;
+            scanf("%d",&a);
+            printf("Enter your number:");
+            scanf("%d",&b);
+            printf("The divide value is:%d",a/b);
+            break;
+        default:
+            printf("invalid character");
+    }
+
+    return 0;
+}*/
