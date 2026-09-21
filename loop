@@ -1,0 +1,44 @@
+//print number from 1 to 10
+/*
+#include <stdio.h>
+int main(){
+    printf("Enter the number:");
+    int a;
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++){
+        printf("%d\n",i);
+    }
+    return 0;
+}*/
+
+//print even number from 1 to 50
+/*
+#include <stdio.h>
+int main(){
+    printf("Enter the number:");
+    int a;
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++){
+        if(i%2==0){
+            printf("%d\n",i);
+        }
+    }
+    return 0;
+}*/
+
+//print sum of numbers from 1 to n
+/*
+#include <stdio.h>
+int main(){
+    printf("Enter the number:");
+    int a;
+    int sum=0;
+    scanf("%d",&a);
+    for(int i=1;i<=a;i++){
+        for(int j=1;j<=i;j++){
+            sum +=j;
+        }
+    }
+    printf("The result is:%d",sum)
+    return 0;
+}*/
